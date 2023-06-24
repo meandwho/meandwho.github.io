@@ -1,5 +1,5 @@
 // Set the target date and time for the countdown
-const targetDate = new Date("2023-07-07T00:00:00").getTime();
+const targetDate = new Date("2023-07-10T00:00:00").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(() => {
@@ -12,7 +12,7 @@ const countdownInterval = setInterval(() => {
   // Check if the countdown has ended
   if (remainingTime <= 0) {
     clearInterval(countdownInterval);
-    document.getElementById("countdown").innerHTML = "fini !";
+    document.getElementById("countdown").innerHTML = "C'EST LE JOUR J!";
     return;
   }
 
